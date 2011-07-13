@@ -1,0 +1,16 @@
+F:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\bin\Debug\Kevin.Infrastructure.IoC.dll
+F:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\bin\Debug\Kevin.Infrastructure.IoC.pdb
+F:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\GenerateResource.read.1.tlog
+F:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\GenerateResource.write.1.tlog
+F:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.dll
+F:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.pdb
+F:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.Properties.Resources.resources
+E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\bin\Debug\Kevin.Infrastructure.IoC.dll
+E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\bin\Debug\Kevin.Infrastructure.IoC.pdb
+E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\ResolveAssemblyReference.cache
+E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.Resources.Messages.resources
+E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\GenerateResource.read.1.tlog
+E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\GenerateResource.write.1.tlog
+E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.dll
+E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.pdb

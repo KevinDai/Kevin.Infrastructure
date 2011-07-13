@@ -1,0 +1,10 @@
+F:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.dll
+F:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.pdb
+F:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.dll
+F:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.pdb
+E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.dll
+E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.pdb
+E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\ResolveAssemblyReference.cache
+E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.dll
+E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.pdb

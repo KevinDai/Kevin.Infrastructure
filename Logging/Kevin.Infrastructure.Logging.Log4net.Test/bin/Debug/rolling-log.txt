@@ -1,0 +1,30 @@
+[Header]
+2011-06-08 22:58:32,106 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id 'e308b841-9bc9-44f7-9807-39ba1a250f7e'] INFO  Log4net.Test [(null)] - Application [ConsoleApp] Start
+2011-06-08 22:58:32,150 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id 'e308b841-9bc9-44f7-9807-39ba1a250f7e'] DEBUG Log4net.Test [(null)] - This is a debug message
+2011-06-08 22:58:32,151 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id 'e308b841-9bc9-44f7-9807-39ba1a250f7e'] ERROR Log4net.Test [(null)] - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Foo() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 70
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Goo() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 77
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Goo() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 81
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Bar() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 65
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Log4netLogger_Create_By_LoggerName_Test() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 34
+2011-06-08 22:58:32,159 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id 'e308b841-9bc9-44f7-9807-39ba1a250f7e'] ERROR Log4net.Test [(null)] - Hey this is an error!
+2011-06-08 22:58:32,160 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id 'e308b841-9bc9-44f7-9807-39ba1a250f7e'] WARN  Log4net.Test [(null)] - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2011-06-08 22:58:32,160 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id 'e308b841-9bc9-44f7-9807-39ba1a250f7e'] INFO  Log4net.Test [(null)] - Application [ConsoleApp] End
+[Footer]
+[Header]
+2011-06-08 22:59:39,302 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id '20825942-c74a-41ad-ab73-9720289de6c6'] INFO  Log4net.Test [(null)] - Application [ConsoleApp] Start
+2011-06-08 22:59:39,320 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id '20825942-c74a-41ad-ab73-9720289de6c6'] DEBUG Log4net.Test [(null)] - This is a debug message
+2011-06-08 22:59:39,321 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id '20825942-c74a-41ad-ab73-9720289de6c6'] ERROR Log4net.Test [(null)] - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Foo() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 68
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Goo() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 75
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Goo() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 79
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Bar() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 63
+   在 Kevin.Infrastructure.Logging.Log4net.Test.Log4netLoggerTest.Log4netLogger_Create_By_LoggerName_Test() 位置 F:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\Log4netLoggerTest.cs:行号 32
+2011-06-08 22:59:39,328 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id '20825942-c74a-41ad-ab73-9720289de6c6'] ERROR Log4net.Test [(null)] - Hey this is an error!
+2011-06-08 22:59:39,328 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id '20825942-c74a-41ad-ab73-9720289de6c6'] WARN  Log4net.Test [(null)] - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2011-06-08 22:59:39,328 [Agent: adapter run thread for test 'Log4netLogger_Create_By_LoggerName_Test' with id '20825942-c74a-41ad-ab73-9720289de6c6'] INFO  Log4net.Test [(null)] - Application [ConsoleApp] End
+[Footer]

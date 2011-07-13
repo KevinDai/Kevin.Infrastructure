@@ -1,0 +1,10 @@
+F:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\bin\Debug\kevin.Infrastructure.Logging.dll
+F:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\bin\Debug\kevin.Infrastructure.Logging.pdb
+F:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\kevin.Infrastructure.Logging.dll
+F:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\kevin.Infrastructure.Logging.pdb
+E:\backup\system\desktop\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\bin\Debug\Kevin.Infrastructure.Logging.dll
+E:\backup\system\desktop\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\bin\Debug\Kevin.Infrastructure.Logging.pdb
+E:\backup\system\desktop\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\ResolveAssemblyReference.cache
+E:\backup\system\desktop\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\Kevin.Infrastructure.Logging.dll
+E:\backup\system\desktop\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\Kevin.Infrastructure.Logging.pdb

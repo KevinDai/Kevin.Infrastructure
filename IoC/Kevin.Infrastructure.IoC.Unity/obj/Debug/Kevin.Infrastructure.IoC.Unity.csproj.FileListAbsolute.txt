@@ -16,3 +16,12 @@ E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity
 E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\obj\Debug\ResolveAssemblyReference.cache
 E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\obj\Debug\Kevin.Infrastructure.IoC.Unity.dll
 E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\obj\Debug\Kevin.Infrastructure.IoC.Unity.pdb
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\bin\Debug\Kevin.Infrastructure.IoC.Unity.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\bin\Debug\Kevin.Infrastructure.IoC.Unity.pdb
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\bin\Debug\Kevin.Infrastructure.IoC.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\bin\Debug\Kevin.Infrastructure.IoC.pdb
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\obj\Debug\Kevin.Infrastructure.IoC.Unity.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC.Unity\obj\Debug\Kevin.Infrastructure.IoC.Unity.pdb

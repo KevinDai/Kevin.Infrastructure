@@ -3,3 +3,8 @@ E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework.Test\obj\Debug\ResolveAssemblyReference.cache
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework.Test\obj\Debug\Kevin.Infrastructure.Domain.EntityFramework.Test.dll
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework.Test\obj\Debug\Kevin.Infrastructure.Domain.EntityFramework.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework.Test\bin\Debug\Kevin.Infrastructure.Domain.EntityFramework.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework.Test\bin\Debug\Kevin.Infrastructure.Domain.EntityFramework.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework.Test\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework.Test\obj\Debug\Kevin.Infrastructure.Domain.EntityFramework.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework.Test\obj\Debug\Kevin.Infrastructure.Domain.EntityFramework.Test.pdb

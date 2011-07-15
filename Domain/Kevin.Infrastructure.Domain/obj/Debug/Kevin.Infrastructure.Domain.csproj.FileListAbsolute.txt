@@ -8,3 +8,9 @@ E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\ResolveAssemblyReference.cache
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.dll
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.XML

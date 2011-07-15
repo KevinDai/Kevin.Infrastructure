@@ -5,6 +5,10 @@ using System.Text;
 
 namespace Kevin.Infrastructure.Domain
 {
+    /// <summary>
+    /// 实体基类
+    /// </summary>
+    /// <typeparam name="TId">实体标识符类型</typeparam>
     public abstract class EntityBase<TId>
     {
         private List<BusinessRule> _brokenRules = new List<BusinessRule>();

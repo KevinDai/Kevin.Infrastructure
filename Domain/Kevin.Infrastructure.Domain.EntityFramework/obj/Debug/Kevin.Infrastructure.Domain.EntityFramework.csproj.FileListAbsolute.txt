@@ -18,3 +18,15 @@ E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.EntityFramework.pdb
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.dll
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\obj\Debug\Kevin.Infrastructure.Domain.EntityFramework.Resources.Messages.resources
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\obj\Debug\GenerateResource.read.1.tlog
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\obj\Debug\GenerateResource.write.1.tlog
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\obj\Debug\Kevin.Infrastructure.Domain.EntityFramework.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\obj\Debug\Kevin.Infrastructure.Domain.EntityFramework.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.EntityFramework.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.EntityFramework.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.xml
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.EntityFramework.XML

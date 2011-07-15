@@ -9,6 +9,6 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
 {
     public interface IEntityUnitOfWork : IUnitOfWork
     {
-        DbQuery<T> Query<T, TId>() where T : EntityBase<TId>;
+        DbSet<T> DbSet<T, TId>() where T : EntityBase<TId>;
     }
 }

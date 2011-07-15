@@ -28,3 +28,13 @@ E:\backup\system\desktop\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\
 E:\backup\system\desktop\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\obj\Debug\ResolveAssemblyReference.cache
 E:\backup\system\desktop\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\obj\Debug\Kevin.Infrastructure.IoC.Test.dll
 E:\backup\system\desktop\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\obj\Debug\Kevin.Infrastructure.IoC.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\bin\Debug\Kevin.Infrastructure.IoC.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\bin\Debug\Kevin.Infrastructure.IoC.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\bin\Debug\Kevin.Infrastructure.IoC.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\bin\Debug\Moq.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\bin\Debug\Kevin.Infrastructure.IoC.pdb
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\bin\Debug\Moq.pdb
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\bin\Debug\Moq.xml
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\obj\Debug\Kevin.Infrastructure.IoC.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\kevin.Infrastructure.IoC.Test\obj\Debug\Kevin.Infrastructure.IoC.Test.pdb

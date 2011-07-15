@@ -45,10 +45,10 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
 
         #region IQueryUnitOfWork Implementation
 
-        public virtual DbQuery<T> Query<T, TId>()
+        public virtual DbSet<T> DbSet<T, TId>()
             where T : EntityBase<TId>
         {
-            return this.Context.Set<T>() as DbQuery<T>;
+            return this.Context.Set<T>();
         }
 
         public virtual void SaveChanges()

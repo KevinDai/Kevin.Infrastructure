@@ -14,3 +14,11 @@ E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\D
 E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\GenerateResource.write.1.tlog
 E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.dll
 E:\backup\system\desktop\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.pdb
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\bin\Debug\Kevin.Infrastructure.IoC.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\bin\Debug\Kevin.Infrastructure.IoC.pdb
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.Resources.Messages.resources
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\GenerateResource.read.1.tlog
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\GenerateResource.write.1.tlog
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.dll
+E:\Project\MyProject\Kevin.Infrastructure\IoC\Kevin.Infrastructure.IoC\obj\Debug\Kevin.Infrastructure.IoC.pdb

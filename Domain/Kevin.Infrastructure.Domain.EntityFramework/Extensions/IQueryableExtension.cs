@@ -19,11 +19,20 @@ namespace Kevin.Infrastructure.Domain.EntityFramework.Extensions
             return query;
         }
 
-        internal static IQueryable<T> Sort<T, TId>(this IQueryable<T> query, params ListSortDescription[] sortDescriptions) where T : EntityBase<TId>
+        internal static IQueryable<T> Sort<T, TId>(this IQueryable<T> query, params SortDescriptor<T>[] sortDescriptors) where T : EntityBase<TId>
         {
-            if (sortDescriptions.Any())
+            if (sortDescriptors != null && sortDescriptors.Any())
             {
-                Expression<Func<T, object>> exp = t => t.Id;
+                //反转排序说明对象列表
+                var list = sortDescriptors.Reverse();
+                foreach (var item in list)
+                {
+                    query = item.SortDirection == ListSortDirection.Ascending
+                        ?
+                        query.OrderBy(item.SortKeySelector)
+                        :
+                        query.OrderByDescending(item.SortKeySelector);
+                }
             }
             else
             {
@@ -39,6 +48,12 @@ namespace Kevin.Infrastructure.Domain.EntityFramework.Extensions
                 throw new ArgumentException(
                     Resources.Messages.exception_PageIndexShouldGreaterThanZero,
                     "pageIndex");
+            }
+            if (pageCount <= 0)
+            {
+                throw new ArgumentException(
+                    Resources.Messages.exception_PageCountShouldGreaterThanZero,
+                    "pageCount");
             }
             query = query.Skip(pageIndex * pageCount).Take(pageCount);
             return query;

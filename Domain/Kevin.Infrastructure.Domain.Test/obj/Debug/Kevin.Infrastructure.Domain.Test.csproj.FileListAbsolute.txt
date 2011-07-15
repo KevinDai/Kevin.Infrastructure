@@ -18,3 +18,14 @@ E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\obj\Debug\ResolveAssemblyReference.cache
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\obj\Debug\Kevin.Infrastructure.Domain.Test.dll
 E:\backup\system\desktop\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\obj\Debug\Kevin.Infrastructure.Domain.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\bin\Debug\Kevin.Infrastructure.Domain.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\bin\Debug\Kevin.Infrastructure.Domain.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\bin\Debug\Kevin.Infrastructure.Domain.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\bin\Debug\Moq.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\bin\Debug\Kevin.Infrastructure.Domain.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\bin\Debug\Moq.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\bin\Debug\Moq.xml
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\obj\Debug\Kevin.Infrastructure.Domain.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\obj\Debug\Kevin.Infrastructure.Domain.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Test\bin\Debug\Kevin.Infrastructure.Domain.xml

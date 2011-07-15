@@ -30,3 +30,13 @@ E:\backup\system\desktop\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Loggi
 E:\backup\system\desktop\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\obj\Debug\ResolveAssemblyReference.cache
 E:\backup\system\desktop\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\obj\Debug\Kevin.Infrastructure.Logging.Log4net.Test.dll
 E:\backup\system\desktop\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\obj\Debug\Kevin.Infrastructure.Logging.Log4net.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\bin\Debug\Kevin.Infrastructure.Logging.Log4net.Test.dll.config
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\bin\Debug\Kevin.Infrastructure.Logging.Log4net.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\bin\Debug\Kevin.Infrastructure.Logging.Log4net.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\bin\Debug\Kevin.Infrastructure.Logging.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\bin\Debug\Kevin.Infrastructure.Logging.Log4net.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\bin\Debug\Kevin.Infrastructure.Logging.Log4net.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\bin\Debug\Kevin.Infrastructure.Logging.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\obj\Debug\Kevin.Infrastructure.Logging.Log4net.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net.Test\obj\Debug\Kevin.Infrastructure.Logging.Log4net.Test.pdb

@@ -8,3 +8,8 @@ E:\backup\system\desktop\Kevin.Infrastructure\Logging\kevin.Infrastructure.Loggi
 E:\backup\system\desktop\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\ResolveAssemblyReference.cache
 E:\backup\system\desktop\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\Kevin.Infrastructure.Logging.dll
 E:\backup\system\desktop\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\Kevin.Infrastructure.Logging.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\bin\Debug\Kevin.Infrastructure.Logging.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\bin\Debug\Kevin.Infrastructure.Logging.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\Kevin.Infrastructure.Logging.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\kevin.Infrastructure.Logging\obj\Debug\Kevin.Infrastructure.Logging.pdb

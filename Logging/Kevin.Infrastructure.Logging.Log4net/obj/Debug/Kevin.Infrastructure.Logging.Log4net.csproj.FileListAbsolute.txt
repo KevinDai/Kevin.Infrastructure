@@ -20,3 +20,14 @@ E:\backup\system\desktop\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Loggi
 E:\backup\system\desktop\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\bin\Debug\Kevin.Infrastructure.Logging.dll
 E:\backup\system\desktop\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\bin\Debug\log4net.dll
 E:\backup\system\desktop\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\bin\Debug\Kevin.Infrastructure.Logging.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\bin\Debug\Kevin.Infrastructure.Logging.Log4net.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\bin\Debug\Kevin.Infrastructure.Logging.Log4net.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\bin\Debug\Kevin.Infrastructure.Logging.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\bin\Debug\log4net.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\bin\Debug\Kevin.Infrastructure.Logging.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\obj\Debug\Kevin.Infrastructure.Logging.Log4net.Resources.Messages.resources
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\obj\Debug\GenerateResource.read.1.tlog
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\obj\Debug\GenerateResource.write.1.tlog
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\obj\Debug\Kevin.Infrastructure.Logging.Log4net.dll
+E:\Project\MyProject\Kevin.Infrastructure\Logging\Kevin.Infrastructure.Logging.Log4net\obj\Debug\Kevin.Infrastructure.Logging.Log4net.pdb

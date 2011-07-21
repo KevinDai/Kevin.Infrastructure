@@ -10,8 +10,6 @@ using System.Data.Entity.Infrastructure;
 namespace Kevin.Infrastructure.Domain.EntityFramework
 {
 
-    using Extensions;
-
     /// <summary>
     /// 使用EntityFramework的实体数据仓库基类
     /// </summary>
@@ -23,7 +21,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
 
         #region Members
 
-        public IUnitOfWork UnitOfWork
+        protected IEntityUnitOfWork UnitOfWork
         {
             get
             {
@@ -32,43 +30,27 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
         }
         private IEntityUnitOfWork _unitOfWork;
 
-        private DbSet<T> DbSet
+        /// <summary>
+        /// 进行查询的实体数据源
+        /// </summary>
+        protected virtual IQueryable<T> Query
         {
             get
             {
-                return _unitOfWork.DbSet<T, TId>();
+                return _unitOfWork.DbSet<T, TId>() as IQueryable<T>;
             }
         }
 
-        /// <summary>
-        /// 默认加载的关联属性的名称的集合，参考Entity的Include机制
-        /// </summary>
-        protected virtual IEnumerable<string> IncludeProperty
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>
-        /// 持久化的实体集合数据源
-        /// </summary>
-        protected DbQuery<T> Query
-        {
-            get
-            {
-                var query = DbSet as DbQuery<T>;
-                if (IncludeProperty != null && IncludeProperty.Any())
-                {
-                    foreach (var item in IncludeProperty)
-                    {
-                        query = query.Include(item);
-                    }
-                }
-                return query;
-            }
-        }
+        ///// <summary>
+        ///// 在执行查询时，默认加载的关联属性的名称的集合，参考Entity的Include机制
+        ///// </summary>
+        //protected virtual IEnumerable<string> Paths
+        //{
+        //    get
+        //    {
+        //        return null;
+        //    }
+        //}
 
         #endregion
 
@@ -101,7 +83,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
              */
             Expression<Func<T, bool>> exp = CreateIdEqualExpression(id);
 
-            var entity = DbSet.Local.FirstOrDefault(exp.Compile());
+            var entity = _unitOfWork.DbSet<T,TId>().Local.FirstOrDefault(exp.Compile());
             //当前上下文中不存在要查找的实体则从持久化数据源中获取
             if (entity == null)
             {
@@ -156,7 +138,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
             Specification.ISpecification<T> specification,
             params SortDescriptor<T>[] sortDescriptors)
         {
-            var query = Query as IQueryable<T>;
+            var query = Query;
 
             query = query
                 .FindBy<T, TId>(specification)
@@ -179,7 +161,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
             params SortDescriptor<T>[] sortDescriptors)
         {
 
-            var query = Query as IQueryable<T>;
+            var query = Query;
 
             query = query
                 .FindBy<T, TId>(specification)
@@ -203,7 +185,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
             int pageIndex, int pageCount, out int totalCount,
             params SortDescriptor<T>[] sortDescriptors)
         {
-            var query = Query as IQueryable<T>;
+            var query = Query;
 
             query = query.FindBy<T, TId>(specification);
             //获取过滤后的记录总数

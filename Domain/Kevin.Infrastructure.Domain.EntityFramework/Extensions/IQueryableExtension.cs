@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Linq.Expressions;
+using System.Data.Entity.Infrastructure;
 
-namespace Kevin.Infrastructure.Domain.EntityFramework.Extensions
+namespace Kevin.Infrastructure.Domain.EntityFramework
 {
     using Kevin.Infrastructure.Domain.Specification;
 
@@ -58,5 +59,6 @@ namespace Kevin.Infrastructure.Domain.EntityFramework.Extensions
             query = query.Skip(pageIndex * pageCount).Take(pageCount);
             return query;
         }
+
     }
 }

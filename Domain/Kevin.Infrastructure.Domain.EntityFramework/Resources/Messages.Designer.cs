@@ -61,6 +61,15 @@ namespace Kevin.Infrastructure.Domain.EntityFramework.Resources {
         }
         
         /// <summary>
+        ///   查找类似 进行属性加载的数据无效 的本地化字符串。
+        /// </summary>
+        internal static string exception_IncludeInvlidDataSource {
+            get {
+                return ResourceManager.GetString("exception_IncludeInvlidDataSource", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 分页的每页记录大小必须大于0 的本地化字符串。
         /// </summary>
         internal static string exception_PageCountShouldGreaterThanZero {

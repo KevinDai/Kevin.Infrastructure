@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityUnitOfWork.cs" />
+    <Compile Include="Extensions\DbQueryExtension.cs" />
     <Compile Include="Extensions\IQueryableExtension.cs" />
     <Compile Include="IEntityUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

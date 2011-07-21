@@ -13,4 +13,3 @@ E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj
 E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.pdb
 E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.dll
 E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.pdb
-E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.XML

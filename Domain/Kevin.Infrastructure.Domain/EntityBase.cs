@@ -13,7 +13,7 @@ namespace Kevin.Infrastructure.Domain
     {
         private List<BusinessRule> _brokenRules = new List<BusinessRule>();
 
-        public TId Id { get; set; }
+        public virtual TId Id { get; set; }
 
         protected abstract void Validate();
 

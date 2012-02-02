@@ -24,6 +24,8 @@ namespace Kevin.Infrastructure.Logging.Log4net
 
         #endregion
 
+        #region Constructor
+
         public Log4netLogger(string loggerName)
         {
             XmlConfigurator.Configure();
@@ -44,6 +46,8 @@ namespace Kevin.Infrastructure.Logging.Log4net
             }
             _log = log;
         }
+
+        #endregion
 
         #region ILogger implementation
 

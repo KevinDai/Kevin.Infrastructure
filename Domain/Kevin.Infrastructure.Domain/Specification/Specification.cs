@@ -26,6 +26,15 @@ namespace Kevin.Infrastructure.Domain.Specification
         /// <returns>Expression that satisfy this specification</returns>
         public abstract Expression<Func<TEntity, bool>> SatisfiedBy();
 
+
+        public Specification<TDerive> OfType<TDerive>()
+            where TDerive : class,TEntity
+        {
+            var exp = this.SatisfiedBy();
+            var convertExp = LambdaExpression.Lambda<Func<TDerive, bool>>(exp.Body, exp.Parameters);
+            return new DirectSpecification<TDerive>(convertExp);
+        }
+
         #endregion
 
         #region Override Operators
@@ -81,18 +90,6 @@ namespace Kevin.Infrastructure.Domain.Specification
         public static bool operator true(Specification<TEntity> specification)
         {
             return true;
-        }
-
-        #endregion
-
-        #region Method
-
-        public Specification<TDerive> OfType<TDerive>()
-            where TDerive : class,TEntity
-        {
-            var exp = this.SatisfiedBy();
-            var convertExp = LambdaExpression.Lambda<Func<TDerive, bool>>(exp.Body, exp.Parameters);
-            return new DirectSpecification<TDerive>(convertExp);
         }
 
         #endregion

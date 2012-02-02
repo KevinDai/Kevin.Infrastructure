@@ -56,7 +56,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
                     Resources.Messages.exception_PageCountShouldGreaterThanZero,
                     "pageCount");
             }
-            query = query.Skip(pageIndex * pageCount).Take(pageCount);
+            query = query.Skip((pageIndex - 1) * pageCount).Take(pageCount);
             return query;
         }
 

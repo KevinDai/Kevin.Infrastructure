@@ -20,6 +20,14 @@ namespace Kevin.Infrastructure.Domain.Specification
         /// </summary>
         /// <returns></returns>
         Expression<Func<TEntity, bool>> SatisfiedBy();
+
+        /// <summary>
+        /// Convert this type of specification to 
+        /// another type(derive from this type) of specification
+        /// </summary>
+        /// <typeparam name="TDerive"></typeparam>
+        /// <returns></returns>
+        Specification<TDerive> OfType<TDerive>() where TDerive : class,TEntity;
     }
 
 

@@ -62,13 +62,13 @@ namespace Kevin.Infrastructure.Domain
         /// </summary>
         /// <param name="specification">过滤的规约</param>
         /// <param name="pageIndex">指定页的页码</param>
-        /// <param name="pageCount">分页大小</param>
+        /// <param name="pageSize">分页大小</param>
         /// <param name="sortDescriptors">排序说明对象</param>
         /// <returns>实体列表</returns>
         IEnumerable<TEntity> FindPageBy(
             ISpecification<TEntity> specification,
             int pageIndex,
-            int pageCount,
+            int pageSize,
             params SortDescriptor<TEntity>[] sortDescriptors);
 
         /// <summary>
@@ -76,14 +76,14 @@ namespace Kevin.Infrastructure.Domain
         /// </summary>
         /// <param name="specification">过滤的规约</param>
         /// <param name="pageIndex">指定页的页码</param>
-        /// <param name="pageCount">分页大小</param>
+        /// <param name="pageSize">分页大小</param>
         /// <param name="totalCount">符合过滤规约实体的总数</param>
         /// <param name="sortDescriptors">排序说明对象</param>
         /// <returns>实体列表</returns>
         IEnumerable<TEntity> FindPageBy(
             ISpecification<TEntity> specification,
             int pageIndex,
-            int pageCount,
+            int pageSize,
             out int totalCount,
             params SortDescriptor<TEntity>[] sortDescriptors);
     }

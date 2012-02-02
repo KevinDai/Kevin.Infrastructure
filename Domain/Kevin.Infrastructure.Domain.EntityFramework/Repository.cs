@@ -37,7 +37,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
         {
             get
             {
-                return _unitOfWork.DbSet<T, TId>() as IQueryable<T>;
+                return _unitOfWork.DbSet<T>() as IQueryable<T>;
             }
         }
 
@@ -83,7 +83,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
              */
             Expression<Func<T, bool>> exp = CreateIdEqualExpression(id);
 
-            var entity = _unitOfWork.DbSet<T,TId>().Local.FirstOrDefault(exp.Compile());
+            var entity = _unitOfWork.DbSet<T>().Local.FirstOrDefault(exp.Compile());
             //当前上下文中不存在要查找的实体则从持久化数据源中获取
             if (entity == null)
             {
@@ -152,12 +152,13 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
         /// </summary>
         /// <param name="specification"><see cref="IRepository{T, TId}"/></param>
         /// <param name="pageIndex"><see cref="IRepository{T, TId}"/></param>
-        /// <param name="pageCount"><see cref="IRepository{T, TId}"/></param>
+        /// <param name="pageSize"><see cref="IRepository{T, TId}"/></param>
         /// <param name="sortDescriptors"><see cref="IRepository{T, TId}"/></param>
         /// <returns><see cref="IRepository{T, TId}"/></returns>
         public virtual IEnumerable<T> FindPageBy(
             Specification.ISpecification<T> specification,
-            int pageIndex, int pageCount,
+            int pageIndex, 
+            int pageSize,
             params SortDescriptor<T>[] sortDescriptors)
         {
 
@@ -166,7 +167,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
             query = query
                 .FindBy<T, TId>(specification)
                 .Sort<T, TId>(sortDescriptors)
-                .Paginate(pageIndex, pageCount);
+                .Paginate(pageIndex, pageSize);
 
             return query.ToArray();
         }
@@ -176,13 +177,15 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
         /// </summary>
         /// <param name="specification"><see cref="IRepository{T, TId}"/></param>
         /// <param name="pageIndex"><see cref="IRepository{T, TId}"/></param>
-        /// <param name="pageCount"><see cref="IRepository{T, TId}"/></param>
+        /// <param name="pageSize"><see cref="IRepository{T, TId}"/></param>
         /// <param name="totalCount"><see cref="IRepository{T, TId}"/></param>
         /// <param name="sortDescriptors"><see cref="IRepository{T, TId}"/></param>
         /// <returns><see cref="IRepository{T, TId}"/></returns>
         public virtual IEnumerable<T> FindPageBy(
             Specification.ISpecification<T> specification,
-            int pageIndex, int pageCount, out int totalCount,
+            int pageIndex,
+            int pageSize, 
+            out int totalCount,
             params SortDescriptor<T>[] sortDescriptors)
         {
             var query = Query;
@@ -193,7 +196,7 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
 
             query = query
                 .Sort<T, TId>(sortDescriptors)
-                .Paginate(pageIndex, pageCount);
+                .Paginate(pageIndex, pageSize);
 
             return query.ToArray();
         }

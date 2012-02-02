@@ -45,8 +45,8 @@ namespace Kevin.Infrastructure.Domain.EntityFramework
 
         #region IQueryUnitOfWork Implementation
 
-        public virtual IDbSet<T> DbSet<T, TId>()
-            where T : EntityBase<TId>
+        public virtual IDbSet<T> DbSet<T>()
+            where T : class
         {
             return this.Context.Set<T>();
         }

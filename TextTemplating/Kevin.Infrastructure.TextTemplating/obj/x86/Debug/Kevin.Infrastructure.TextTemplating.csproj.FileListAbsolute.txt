@@ -1,0 +1,5 @@
+E:\Project\MyProject\Kevin.Infrastructure\TextTemplating\Kevin.Infrastructure.TextTemplating\bin\Debug\Kevin.Infrastructure.TextTemplating.exe
+E:\Project\MyProject\Kevin.Infrastructure\TextTemplating\Kevin.Infrastructure.TextTemplating\bin\Debug\Kevin.Infrastructure.TextTemplating.pdb
+E:\Project\MyProject\Kevin.Infrastructure\TextTemplating\Kevin.Infrastructure.TextTemplating\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\TextTemplating\Kevin.Infrastructure.TextTemplating\obj\x86\Debug\Kevin.Infrastructure.TextTemplating.exe
+E:\Project\MyProject\Kevin.Infrastructure\TextTemplating\Kevin.Infrastructure.TextTemplating\obj\x86\Debug\Kevin.Infrastructure.TextTemplating.pdb

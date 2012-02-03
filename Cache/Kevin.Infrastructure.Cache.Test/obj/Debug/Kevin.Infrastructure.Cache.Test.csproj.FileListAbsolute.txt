@@ -1,0 +1,11 @@
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\bin\Debug\Kevin.Infrastructure.Cache.Test.dll.config
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\bin\Debug\Kevin.Infrastructure.Cache.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\bin\Debug\Kevin.Infrastructure.Cache.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\bin\Debug\Kevin.Infrastructure.Cache.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\bin\Debug\Kevin.Infrastructure.Cache.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\obj\Debug\Kevin.Infrastructure.Cache.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\obj\Debug\Kevin.Infrastructure.Cache.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\bin\Debug\Moq.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\bin\Debug\Moq.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Test\bin\Debug\Moq.xml

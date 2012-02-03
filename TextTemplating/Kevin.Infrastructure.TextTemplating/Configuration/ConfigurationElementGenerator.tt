@@ -1,0 +1,95 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".txt" #>
+<#
+	//ConfigurationElement的类型名称
+	string typeName = "CacheConfigurationElement";
+
+	ConfigurationElementInfo[] configInfos = new ConfigurationElementInfo[]{
+		new ConfigurationElementInfo { PropertyName = "ExpireTime", TypeName="long", ConfigName="expireTime" },
+		new ConfigurationElementInfo { PropertyName = "Enable", TypeName="bool", ConfigName="enable" },
+		new ConfigurationElementInfo { PropertyName = "Name", TypeName="string", ConfigName="name" }
+	};
+#>
+using System.Configuration
+
+public class <#=typeName#> : ConfigurationElement
+{
+
+	#region 字段
+<#
+	foreach(ConfigurationElementInfo element in configInfos)
+	{
+#>
+
+    private const string <#=element.FieldName#> = "<#=element.ConfigName#>";
+<#
+	}
+#>
+
+	#endregion
+
+	#region 属性
+<#
+	foreach(ConfigurationElementInfo element in configInfos)
+	{
+#>
+
+    [ConfigurationProperty(<#=element.FieldName#>)]
+    public <#=element.TypeName#> <#=element.PropertyName#> 
+    {
+		get
+		{
+            return (<#=element.TypeName#>)base[<#=element.FieldName#>];
+		}
+		set
+		{
+			base[<#=element.FieldName#>] = value;
+		}
+	}
+<#
+	}
+#>
+
+    public string Key
+    {
+		get
+		{
+			return;
+		}
+	}
+
+	#endregion
+
+}
+<#+
+	public class ConfigurationElementInfo
+	{
+
+		public string PropertyName
+		{
+			get;
+			set;
+		}
+
+		public string TypeName
+		{
+			get;
+			set;
+		}
+
+		public string ConfigName
+		{
+			get;
+			set;
+		}
+
+		public string FieldName
+		{
+			get
+			{
+				return PropertyName + "Item";
+			}
+		}
+
+	}
+#>

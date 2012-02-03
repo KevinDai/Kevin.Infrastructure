@@ -1,0 +1,72 @@
+﻿using System.Configuration;
+
+namespace Kevin.Infrastructure.Cache.Configuration
+{
+
+    public class CacheConfigurationElement : ConfigurationElement
+    {
+
+        #region 字段
+
+        private const string ExpireTimeItem = "expireTime";
+
+        private const string EnableItem = "enable";
+
+        private const string NameItem = "name";
+
+        #endregion
+
+        #region 属性
+
+        [ConfigurationProperty(ExpireTimeItem)]
+        public long ExpireTime
+        {
+            get
+            {
+                return (long)base[ExpireTimeItem];
+            }
+            set
+            {
+                base[ExpireTimeItem] = value;
+            }
+        }
+
+        [ConfigurationProperty(EnableItem)]
+        public bool Enable
+        {
+            get
+            {
+                return (bool)base[EnableItem];
+            }
+            set
+            {
+                base[EnableItem] = value;
+            }
+        }
+
+        [ConfigurationProperty(NameItem, IsKey = true)]
+        public string Name
+        {
+            get
+            {
+                return (string)base[NameItem];
+            }
+            set
+            {
+                base[NameItem] = value;
+            }
+        }
+
+        public string Key
+        {
+            get
+            {
+                return Name;
+            }
+        }
+
+        #endregion
+
+    }
+
+}

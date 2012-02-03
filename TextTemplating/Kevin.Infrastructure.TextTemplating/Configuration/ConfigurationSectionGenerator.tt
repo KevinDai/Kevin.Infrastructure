@@ -1,0 +1,79 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".txt" #>
+<#
+	//ConfigurationElement的类型名称
+	string sectionName = "CachesConfigurationSection";
+
+	ConfigurationSectionInfo[] configInfos = new ConfigurationSectionInfo[] {
+		new ConfigurationSectionInfo { PropertyName = "Caches", TypeName="CacheConfigurationElementCollection", ConfigName="caches"}
+	};
+#>
+
+    public class <#=sectionName#> : ConfigurationSection
+	{
+
+		#region 字段
+		<#
+			foreach(ConfigurationSectionInfo element in configInfos)
+			{
+		#>
+
+		private const string <#=element.FieldName#> = "<#=element.ConfigName#>";
+		<#
+			}
+		#>
+
+		#endregion
+
+		#region 属性
+		<#
+			foreach(ConfigurationSectionInfo element in configInfos)
+			{
+		#>
+
+		[ConfigurationProperty(<#=element.FieldName#>)]
+		public <#=element.TypeName#> <#=element.PropertyName#>
+		{
+			get
+			{
+				return base[<#=element.FieldName#>] as <#=element.TypeName#>;
+			}
+		}
+		<#
+			}
+		#>
+
+		#endregion
+
+    }
+<#+
+
+	public class ConfigurationSectionInfo
+	{
+		public string PropertyName
+		{
+			get;
+			set;
+		}
+
+		public string TypeName
+		{
+			get;
+			set;
+		}
+
+		public string ConfigName
+		{
+			get;
+			set;
+		}
+
+		public string FieldName
+		{
+			get
+			{
+				return PropertyName + "Item";
+			}
+		}
+	}
+#>

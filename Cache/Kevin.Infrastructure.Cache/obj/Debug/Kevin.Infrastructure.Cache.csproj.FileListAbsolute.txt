@@ -1,0 +1,5 @@
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache\bin\Debug\Kevin.Infrastructure.Cache.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache\bin\Debug\Kevin.Infrastructure.Cache.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache\obj\Debug\Kevin.Infrastructure.Cache.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache\obj\Debug\Kevin.Infrastructure.Cache.pdb

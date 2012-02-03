@@ -29,4 +29,3 @@ E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.Ent
 E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.dll
 E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.pdb
 E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.xml
-E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain.EntityFramework\bin\Debug\Kevin.Infrastructure.Domain.EntityFramework.XML

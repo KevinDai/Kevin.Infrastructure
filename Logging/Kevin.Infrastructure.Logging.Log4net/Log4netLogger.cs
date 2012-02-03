@@ -28,7 +28,7 @@ namespace Kevin.Infrastructure.Logging.Log4net
 
         public Log4netLogger(string loggerName)
         {
-            XmlConfigurator.Configure();
+            //XmlConfigurator.Configure();
             _log = LogManager.GetLogger(loggerName);
             if (_log == null)
             {

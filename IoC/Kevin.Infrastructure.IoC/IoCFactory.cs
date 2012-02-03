@@ -5,6 +5,12 @@ using System.Reflection;
 
 namespace Kevin.Infrastructure.IoC
 {
+    /// <summary>
+    /// IoC容器工厂类
+    /// </summary>
+    /// <remarks>
+    /// 主要参考ASP.Net MVC中DependencyResolver的实现
+    /// </remarks>
     public class IoCFactory
     {
         #region Static accessors
@@ -48,7 +54,7 @@ namespace Kevin.Infrastructure.IoC
         private IContainer _innerCurrentContainer;
 
 
-        public void InnerSetContainer(IContainer container)
+        private void InnerSetContainer(IContainer container)
         {
             if (container == null)
             {
@@ -58,7 +64,7 @@ namespace Kevin.Infrastructure.IoC
             _innerCurrentContainer = container;
         }
 
-        public void InnerSetContainer(object commonServiceLocator)
+        private void InnerSetContainer(object commonServiceLocator)
         {
             if (commonServiceLocator == null)
             {

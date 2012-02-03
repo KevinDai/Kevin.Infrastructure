@@ -16,4 +16,3 @@ E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin
 E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\Kevin.Infrastructure.Domain.Resources.Messages.resources
 E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\GenerateResource.read.1.tlog
 E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\obj\Debug\GenerateResource.write.1.tlog
-E:\Project\MyProject\Kevin.Infrastructure\Domain\Kevin.Infrastructure.Domain\bin\Debug\Kevin.Infrastructure.Domain.XML

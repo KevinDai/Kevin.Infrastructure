@@ -44,12 +44,12 @@ namespace Kevin.Infrastructure.Domain
 
         public static bool operator ==(EntityBase<TId> entity1, EntityBase<TId> entity2)
         {
-            if ((object)entity1 == null && (object)entity2 == null)
+            if (entity1 == null && entity2 == null)
             {
                 return true;
             }
 
-            if ((object)entity1 == null || (object)entity2 == null)
+            if (entity1 == null || entity2 == null)
             {
                 return false;
             }

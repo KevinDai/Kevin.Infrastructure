@@ -1,0 +1,5 @@
+E:\Project\MyProject\Kevin.Infrastructure\Querying\Kevin.Infrastructure.Querying\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Querying\Kevin.Infrastructure.Querying\bin\Debug\Kevin.Infrastructure.Querying.dll
+E:\Project\MyProject\Kevin.Infrastructure\Querying\Kevin.Infrastructure.Querying\bin\Debug\Kevin.Infrastructure.Querying.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Querying\Kevin.Infrastructure.Querying\obj\Debug\Kevin.Infrastructure.Querying.dll
+E:\Project\MyProject\Kevin.Infrastructure\Querying\Kevin.Infrastructure.Querying\obj\Debug\Kevin.Infrastructure.Querying.pdb

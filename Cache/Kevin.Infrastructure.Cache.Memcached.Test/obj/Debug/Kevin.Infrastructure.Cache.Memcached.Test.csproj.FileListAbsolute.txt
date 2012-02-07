@@ -1,0 +1,12 @@
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\bin\Debug\Kevin.Infrastructure.Cache.Memcached.Test.dll.config
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\bin\Debug\Kevin.Infrastructure.Cache.Memcached.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\bin\Debug\Kevin.Infrastructure.Cache.Memcached.Test.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\bin\Debug\Kevin.Infrastructure.Cache.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\bin\Debug\Kevin.Infrastructure.Cache.Memcached.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\bin\Debug\MemcachedProviders.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\bin\Debug\Enyim.Caching.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\bin\Debug\Kevin.Infrastructure.Cache.Memcached.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\bin\Debug\Kevin.Infrastructure.Cache.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\obj\Debug\Kevin.Infrastructure.Cache.Memcached.Test.dll
+E:\Project\MyProject\Kevin.Infrastructure\Cache\Kevin.Infrastructure.Cache.Memcached.Test\obj\Debug\Kevin.Infrastructure.Cache.Memcached.Test.pdb

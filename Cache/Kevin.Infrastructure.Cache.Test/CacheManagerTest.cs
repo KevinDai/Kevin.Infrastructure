@@ -100,5 +100,77 @@ namespace Kevin.Infrastructure.Cache.Test
             Assert.IsTrue(result != moqCache.Object);
         }
 
+        [TestMethod]
+        public void CacheManager_GetCache_Add_ExecuteUsingCacheSetting_Test()
+        {
+            //初始化
+            var moqCache = new Mock<ICache>();
+            var moqProvider = new Mock<ICacheSettingProvider>();
+            CacheManager.SetCache(moqCache.Object);
+            CacheManager.SetCacheSettingProvider(moqProvider.Object);
+
+            var name = "Test";
+            var cacheSetting = new CacheSetting(name, true, 1000);
+            moqProvider.Setup((p) => p.Get(name)).Returns(new CacheSetting(name, true, 1000));
+
+            var key = "key";
+            var value = "value";
+
+            //操作
+            var result = CacheManager.GetCache(name);
+            result.Add("key", "value");
+
+            //验证
+            moqCache.Verify(c => c.Add(key, value, cacheSetting.ExpireTime), Times.Once());
+        }
+
+        [TestMethod]
+        public void CacheManager_GetCache_Add_NotUseCacheSettingExpireTime_Test()
+        {
+            //初始化
+            var moqCache = new Mock<ICache>();
+            var moqProvider = new Mock<ICacheSettingProvider>();
+            CacheManager.SetCache(moqCache.Object);
+            CacheManager.SetCacheSettingProvider(moqProvider.Object);
+
+            var name = "Test";
+            //注意缓存过期时间设置为无效值
+            moqProvider.Setup((p) => p.Get(name)).Returns(new CacheSetting(name, true, 0));
+
+            var key = "key";
+            var value = "value";
+
+            //操作
+            var result = CacheManager.GetCache(name);
+            result.Add(key, value);
+
+            //验证
+            moqCache.Verify(c => c.Add(key, value), Times.Once());
+            moqCache.Verify(c => c.Add(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<long>()), Times.Never());
+        }
+
+        [TestMethod]
+        public void CacheManager_GetCache_Add_NotExecuteWhenCacheSettingEnableFalse_Test()
+        {
+            //初始化
+            var moqCache = new Mock<ICache>();
+            var moqProvider = new Mock<ICacheSettingProvider>();
+            CacheManager.SetCache(moqCache.Object);
+            CacheManager.SetCacheSettingProvider(moqProvider.Object);
+
+            var name = "Test";
+            //注意缓存过期时间设置为无效值
+            moqProvider.Setup((p) => p.Get(name)).Returns(new CacheSetting(name, false, 0));
+
+            //操作
+            var result = CacheManager.GetCache(name);
+            result.Add("key", "value");
+
+            //验证
+            moqCache.Verify(c => c.Add(It.IsAny<string>(), It.IsAny<string>()), Times.Never());
+            moqCache.Verify(c => c.Add(It.IsAny<string>(), It.IsAny<string>(),It.IsAny<long>()), Times.Never());
+        }
+
+
     }
 }

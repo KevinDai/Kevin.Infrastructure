@@ -2,3 +2,7 @@ E:\Project\MyProject\Kevin.Infrastructure\Adapters\Kevin.Infrastructure.Adapters
 E:\Project\MyProject\Kevin.Infrastructure\Adapters\Kevin.Infrastructure.Adapters\obj\Debug\Kevin.Infrastructure.Adapters.Resources.Messages.resources
 E:\Project\MyProject\Kevin.Infrastructure\Adapters\Kevin.Infrastructure.Adapters\obj\Debug\GenerateResource.read.1.tlog
 E:\Project\MyProject\Kevin.Infrastructure\Adapters\Kevin.Infrastructure.Adapters\obj\Debug\GenerateResource.write.1.tlog
+E:\Project\MyProject\Kevin.Infrastructure\Adapters\Kevin.Infrastructure.Adapters\bin\Debug\Kevin.Infrastructure.Adapters.dll
+E:\Project\MyProject\Kevin.Infrastructure\Adapters\Kevin.Infrastructure.Adapters\bin\Debug\Kevin.Infrastructure.Adapters.pdb
+E:\Project\MyProject\Kevin.Infrastructure\Adapters\Kevin.Infrastructure.Adapters\obj\Debug\Kevin.Infrastructure.Adapters.dll
+E:\Project\MyProject\Kevin.Infrastructure\Adapters\Kevin.Infrastructure.Adapters\obj\Debug\Kevin.Infrastructure.Adapters.pdb
